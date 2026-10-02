@@ -39,7 +39,7 @@ OSPF is implemented to provide dynamic routing between the network sections.
 
 **CR3: Guest Wi-Fi must be added for visitors and isolated from internal resources.**
 
-The network includes a guest network using **VLAN 20** to separate guest traffic from the internal municipal network.
+The network includes a guest network using **VLAN 20** and a Wireless Access Point for guest connectivity. An ACL is applied to the guest VLAN to prevent guest users from accessing internal municipal network resources.
 
 ## Network Design
 
@@ -66,7 +66,7 @@ The network uses:
 
 ## Milestone 1
 
-Milestone 1 focuses on the Client Design Review and includes:
+Milestone 1 focused on the Client Design Review and included:
 
 1. Client Requirements
 2. Physical Topology
@@ -76,16 +76,19 @@ Milestone 1 focuses on the Client Design Review and includes:
 
 ## Project Evidence
 
-Project evidence will be added to this repository as the project progresses. This includes:
+The repository contains evidence of the network design, configuration and testing. This includes:
 
-* Network topology diagrams
-* Cisco Packet Tracer screenshots
-* IP addressing information
-* Router and switch configurations
-* OSPF configuration and verification
-* Connectivity testing
-* Troubleshooting evidence
-* Project documentation
+- Network topology
+- Cisco Packet Tracer implementation
+- IP addressing information
+- VLAN configuration
+- Router and switch configuration
+- OSPF configuration and verification
+- Guest Wi-Fi configuration
+- Guest network isolation
+- Connectivity testing
+- ACL verification
+- Troubleshooting evidence
 
 ## Tools Used
 
@@ -95,6 +98,6 @@ Project evidence will be added to this repository as the project progresses. Thi
 
 ## Project Status
 
-**Milestone 1 - Client Design Review**
+**Milestone 2 - Network Implementation and Testing**
 
-The initial network design, topology and IP addressing plan have been prepared. Further configuration, testing and evidence will be added as the project progresses.
+The network has been implemented and configured in Cisco Packet Tracer. OSPF single-area dynamic routing has
