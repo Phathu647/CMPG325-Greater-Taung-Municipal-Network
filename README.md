@@ -27,7 +27,7 @@ The network is designed to:
 * Allow future network expansion.
 * Provide routing between the different network sections.
 
-##Assigned Networking Challenge
+## Assigned Networking Challenge
 
 The assigned networking challenge is:
 
