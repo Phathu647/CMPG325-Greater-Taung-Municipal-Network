@@ -115,4 +115,3 @@ The repository contains evidence of the network design, configuration and testin
 The network has been implemented and tested in Cisco Packet Tracer. The final technical report and video presentation document the project design, configuration, testing, and results.
 
 
-The network has been implemented and configured in Cisco Packet Tracer. OSPF single-area dynamic routing has
